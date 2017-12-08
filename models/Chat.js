@@ -22,6 +22,10 @@ var Chat = mongoose.model('Chat', {
   createdAt: {
     type: String,
     required: true
+  },
+  pushToken: {
+    type: String,
+    required: false
   }
 });
 
